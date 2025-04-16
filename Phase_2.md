@@ -26,3 +26,12 @@ The Emergency Alerts mobile application is intended to serve as a real-time publ
 - Must also support background location tracking for continuous monitoring.
 
 ---
+
+### 🚀 3. Push Notification Engine (Real-Time Alerts)
+
+- Firebase Cloud Messaging (FCM) will be used to deliver instant alerts.
+- Notifications must contain alert type, severity, region, and time metadata.
+- Supports foreground and background delivery with click-to-open actions.
+
+---
+
