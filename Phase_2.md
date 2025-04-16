@@ -103,3 +103,10 @@ These characteristics define how the system will perform under various condition
 - Interface responses must occur in under 1 second for core interactions.
 
 ---
+
+### 📶 Availability
+
+- The system must maintain ≥ 99.9% uptime during all operational periods.
+- Auto-scaling and redundancy required to handle traffic surges during emergencies.
+
+---
