@@ -52,3 +52,14 @@ A **mobile-first** platform delivering hyper-local emergency alerts via GPS and 
 | **Developers** | Scalable APIs, clear docs | Technical debt, poor logging | 
 
 ---
+
+## 1.5 Constraints  
+| Constraint | Mitigation Strategy | 
+
+|------------|--------------------| 
+
+| Poor network conditions | Offline-first design (Firestore cache) | 
+| GDPR/CCPA compliance | Anonymize location data, user consent flows | 
+| iOS/Android only | React Native for cross-platform support | 
+
+---
