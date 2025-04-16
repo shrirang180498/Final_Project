@@ -63,3 +63,20 @@ A **mobile-first** platform delivering hyper-local emergency alerts via GPS and 
 | iOS/Android only | React Native for cross-platform support | 
 
 ---
+
+## 1.6 Assumptions & Dependencies  
+### **Assumptions**  
+1. Users grant location permissions on app launch. 
+2. Authorities verify alerts before publishing (admin dashboard). 
+3. Public APIs (NOAA, USGS) provide reliable real-time data. 
+
+### **Dependencies**  
+| Dependency | Purpose | 
+
+|------------|---------| 
+
+| Firebase Authentication | User sign-up/login | 
+| Google Maps API | Geofencing and map visualization | 
+| Twilio (fallback) | SMS alerts if FCM fails | 
+
+---
