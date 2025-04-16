@@ -80,3 +80,14 @@ A **mobile-first** platform delivering hyper-local emergency alerts via GPS and 
 | Twilio (fallback) | SMS alerts if FCM fails | 
 
 ---
+
+## 1.7 Risk Analysis  
+| Risk | Likelihood | Impact | Mitigation | 
+
+|------|------------|--------|------------| 
+
+| GPS inaccuracy | Medium | High | Use WiFi/Cell triangulation as fallback | 
+| FCM delays | Low | Critical | Implement SMS fallback (Twilio) | 
+| Data breaches | Low | Extreme | Encrypt user data, MFA for admins | 
+
+---
