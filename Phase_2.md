@@ -19,3 +19,10 @@ The Emergency Alerts mobile application is intended to serve as a real-time publ
 
 ---
 
+### 📍 2. Location Permissions for Region-Based Alerts
+
+- The app should request and manage live location permissions from the user.
+- Uses GPS coordinates and geofencing for accurate, region-specific alerts.
+- Must also support background location tracking for continuous monitoring.
+
+---
