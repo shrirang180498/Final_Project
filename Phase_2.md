@@ -63,3 +63,12 @@ The Emergency Alerts mobile application is intended to serve as a real-time publ
 ---
 
 
+### 🎚️ 7. Alert Filtering Based on Type, Severity, Region, and Date
+
+- Filters allow users to customize the view of alerts:
+  - Type (e.g., accident, flood)
+  - Severity (e.g., high, medium, low)
+  - Region/geolocation
+  - Date/time of occurrence
+
+---
