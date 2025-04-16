@@ -42,3 +42,14 @@ The Emergency Alerts mobile application is intended to serve as a real-time publ
 - Only verified admins can manage public-facing alert content.
 
 ---
+
+### ✍️ 5. Create/Edit/Delete Alerts with Metadata Tagging
+
+- Admins can create alerts and assign metadata:
+  - Alert type (e.g., fire, storm)
+  - Severity level
+  - Affected region (geolocation)
+  - Timestamp and validity duration
+  - Optional contact details or resources
+
+---
