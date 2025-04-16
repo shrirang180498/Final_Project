@@ -64,3 +64,27 @@ This document outlines the actionable development tasks required to build the Em
 - User preferences must be respected—alerts must not be pushed if a category is disabled in their settings.
 
 ---
+
+## 🔧 Task 4: Map-Based Visualization of Alerts
+
+### 🧭 User Story
+*As a* user,  
+*I want* to see emergency alerts visually plotted on an interactive map,  
+*So that* I can understand where incidents are happening in real-time and assess my proximity to them.
+
+### ✅ Acceptance Criteria
+- The map (powered by Google Maps API) is embedded within the app's dashboard.
+- Active alerts are displayed as pins/icons with location-based clustering enabled.
+- Tooltip or bottom-sheet appears when a pin is tapped, showing:
+  - Alert type
+  - Severity level (color coded)
+  - Description
+  - Time issued
+- Alerts should be visually differentiated by severity:
+  - Red = High
+  - Orange = Medium
+  - Yellow = Low
+- User's current location is shown as a marker on the map.
+- Alerts auto-refresh as new ones are created or old ones expire.
+ 
+---
