@@ -72,3 +72,12 @@ The Emergency Alerts mobile application is intended to serve as a real-time publ
   - Date/time of occurrence
 
 ---
+
+### 🗃️ 8. Historical Alert Archive with Search and Export
+
+- Alerts will be archived and searchable by type, keyword, and date.
+- Users can export alert data in CSV or JSON format for review or reporting.
+
+---
+
+
