@@ -28,3 +28,13 @@ A **mobile-first** platform delivering hyper-local emergency alerts via GPS and 
 - **Traffic**: Accidents, road closures. 
 
 ---
+
+## 1.3 Key Objectives & Metrics  
+| Objective | Success Metric | Tools/APIs | 
+|-----------|---------------|------------| 
+| Geolocation Accuracy | ≤100m radius | Google Maps API, `react-native-geolocation` | 
+| Alert Delivery Time | <5 seconds | Firebase Cloud Messaging (FCM) | 
+| System Uptime | ≥99.9% SLA | Firebase Hosting, Load Balancing | 
+| Concurrent Users | 10,000+ during surges | Kubernetes auto-scaling | 
+
+---
