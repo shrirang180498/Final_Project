@@ -132,3 +132,11 @@ These characteristics define how the system will perform under various condition
 - Screen readers, contrast options, and navigation aids will be included.
 
 ---
+
+### 📱 Usability
+
+- User-friendly interface with simple navigation and alert configuration.
+- New users should be able to install and start receiving alerts in under 3 minutes.
+- Visual indicators (icons, colors) must clearly differentiate alert types and severities.
+
+---
