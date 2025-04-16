@@ -80,4 +80,10 @@ The Emergency Alerts mobile application is intended to serve as a real-time publ
 
 ---
 
+### 🧾 9. Report Incident Feature (with Admin Review)
 
+- Users can submit emergency reports via a structured form.
+- Reports include text, optional images/videos, and location.
+- All user-submitted reports must be reviewed and approved by admins.
+
+---
