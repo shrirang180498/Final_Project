@@ -91,3 +91,10 @@ A **mobile-first** platform delivering hyper-local emergency alerts via GPS and 
 | Data breaches | Low | Extreme | Encrypt user data, MFA for admins | 
 
 ---
+
+## 1.8 Compliance Requirements  
+- **GDPR**: User data anonymization, right to delete. 
+- **HIPAA** (if health-related alerts): Secure data storage. 
+- **WCAG 2.1**: Screen reader support, high-contrast UI. 
+
+---
