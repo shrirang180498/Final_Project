@@ -31,10 +31,24 @@ A **mobile-first** platform delivering hyper-local emergency alerts via GPS and 
 
 ## 1.3 Key Objectives & Metrics  
 | Objective | Success Metric | Tools/APIs | 
-|-----------|---------------|------------| 
+
+|-----------|---------------|------------|
+ 
 | Geolocation Accuracy | ≤100m radius | Google Maps API, `react-native-geolocation` | 
 | Alert Delivery Time | <5 seconds | Firebase Cloud Messaging (FCM) | 
 | System Uptime | ≥99.9% SLA | Firebase Hosting, Load Balancing | 
 | Concurrent Users | 10,000+ during surges | Kubernetes auto-scaling | 
+
+---
+
+## 1.4 Stakeholder Analysis  
+| Stakeholder | Needs | Pain Points Addressed |
+ 
+|-------------|-------|-----------------------| 
+
+| **Citizens** | Instant, accurate alerts | Delayed/irrelevant warnings | 
+| **Government** | Centralized alert distribution | Fragmented communication channels | 
+| **First Responders** | Real-time incident clustering | Slow response times | 
+| **Developers** | Scalable APIs, clear docs | Technical debt, poor logging | 
 
 ---
