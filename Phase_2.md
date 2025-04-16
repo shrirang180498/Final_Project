@@ -35,3 +35,10 @@ The Emergency Alerts mobile application is intended to serve as a real-time publ
 
 ---
 
+### 🛡️ 4. Admin Dashboard for Verified Institutions
+
+- A secure web dashboard for government or institutional admins to publish alerts.
+- Implements role-based access controls and audit logs for accountability.
+- Only verified admins can manage public-facing alert content.
+
+---
