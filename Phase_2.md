@@ -140,3 +140,15 @@ These characteristics define how the system will perform under various condition
 - Visual indicators (icons, colors) must clearly differentiate alert types and severities.
 
 ---
+
+
+
+
+### 🛠️ Technology Overview
+- **Frontend**: React Native (Android/iOS support)
+- **Backend**: Node.js with Express
+- **Database**: Firebase Firestore
+- **Authentication**: Firebase Authentication
+- **Push Notifications**: Firebase Cloud Messaging (FCM)
+- **Geolocation & Maps**: Google Maps API
+- **Hosting/CI**: Firebase Hosting & GitHub Actions
