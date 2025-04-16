@@ -110,3 +110,11 @@ These characteristics define how the system will perform under various condition
 - Auto-scaling and redundancy required to handle traffic surges during emergencies.
 
 ---
+
+### 🔐 Security:
+
+- Role-based access control for users and admins.
+- Multi-Factor Authentication (MFA) required for admin dashboard access.
+- Data must be encrypted at rest and in transit, ensuring compliance with data privacy laws.
+
+---
