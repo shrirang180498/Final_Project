@@ -96,3 +96,10 @@ The Emergency Alerts mobile application is intended to serve as a real-time publ
 These characteristics define how the system will perform under various conditions and user expectations.
 
 ---
+
+### ⚡ Performance
+
+- Alerts must be pushed to users within 5 seconds of publishing.
+- Interface responses must occur in under 1 second for core interactions.
+
+---
