@@ -42,3 +42,25 @@ This document outlines the actionable development tasks required to build the Em
 - Alert publishing history is logged with admin ID, timestamp, and changes.
 
 ---
+
+## 🔧 Task 3: Push Notification Engine Integration
+
+### 🧑‍💻User Story
+*As a* developer,  
+*I want* to integrate Firebase Cloud Messaging (FCM) for real-time push notifications,  
+*So that* users are promptly notified about emergencies without opening the app.
+
+### ✅ Acceptance Criteria
+- FCM service is initialized and configured in both the mobile frontend and backend.
+- Notifications are automatically triggered when a new alert is published.
+- Notification payload includes:
+  - Title
+  - Body (short description)
+  - Alert type
+  - Region identifier
+  - Timestamp
+- Delivery performance must be tested under load to ensure latency is < 5 seconds.
+- Retry mechanism implemented to reattempt failed deliveries.
+- User preferences must be respected—alerts must not be pushed if a category is disabled in their settings.
+
+---
