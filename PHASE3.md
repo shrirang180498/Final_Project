@@ -20,3 +20,25 @@ This document outlines the actionable development tasks required to build the Em
 - If location permissions are revoked, a fallback message must be shown informing the user to enable access.
 
 ---
+
+## 🔧 Task 2: Alert Creation by Verified Admins
+
+### 🧑‍💼 User Story
+*As an* authorized administrator,  
+*I want* to securely log in and create emergency alerts with all necessary details (location, type, severity, message),  
+*So that* the public is notified quickly and efficiently during emergencies.
+
+### ✅ Acceptance Criteria
+- Admins must authenticate using Firebase Auth and Multi-Factor Authentication (MFA).
+- Alert creation form includes fields for:
+  - Alert Title
+  - Type (Weather, Traffic, Crime, etc.)
+  - Severity (Low, Medium, High)
+  - Description
+  - Affected Regions (single or multiple with map selection)
+  - Duration (optional expiration timestamp)
+- Preview option available before publishing.
+- Upon publishing, alert is immediately visible on the map and pushed to users in the selected region.
+- Alert publishing history is logged with admin ID, timestamp, and changes.
+
+---
