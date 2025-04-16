@@ -87,3 +87,12 @@ The Emergency Alerts mobile application is intended to serve as a real-time publ
 - All user-submitted reports must be reviewed and approved by admins.
 
 ---
+
+
+
+
+## ✅ 2.2 Non-Functional Requirements
+
+These characteristics define how the system will perform under various conditions and user expectations.
+
+---
