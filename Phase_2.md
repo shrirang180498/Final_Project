@@ -118,3 +118,17 @@ These characteristics define how the system will perform under various condition
 - Data must be encrypted at rest and in transit, ensuring compliance with data privacy laws.
 
 ---
+
+### ⚙️ Scalability
+
+- System must support more than 10,000 concurrent users.
+- Backend and notifications must scale horizontally using cloud services.
+
+---
+### ⚙️ Scalability
+
+- System must support more than 10,000 concurrent users.
+- Backend and notifications must scale horizontally using cloud services.
+
+---
+
