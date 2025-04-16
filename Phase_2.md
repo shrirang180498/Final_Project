@@ -125,10 +125,10 @@ These characteristics define how the system will perform under various condition
 - Backend and notifications must scale horizontally using cloud services.
 
 ---
-### ⚙️ Scalability
 
-- System must support more than 10,000 concurrent users.
-- Backend and notifications must scale horizontally using cloud services.
+### ♿ Accessibility
+
+- UI/UX will follow WCAG 2.1 accessibility standards.
+- Screen readers, contrast options, and navigation aids will be included.
 
 ---
-
