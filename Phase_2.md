@@ -53,3 +53,13 @@ The Emergency Alerts mobile application is intended to serve as a real-time publ
   - Optional contact details or resources
 
 ---
+
+### 🗺️ 6. Map Interface Showing Clustered Alerts
+
+- Alerts will be shown on a dynamic map using Google Maps API.
+- Supports clustering of alerts by region and zoom level.
+- Users can tap map pins to read full alert information.
+
+---
+
+
