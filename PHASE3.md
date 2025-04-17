@@ -129,3 +129,25 @@ This document outlines the actionable development tasks required to build the Em
 
 ---
 
+## 🔧 Task 7: Historical Alert Archive
+
+### 🧑‍💼 User Story
+**As a** researcher or public user,  
+**I want** access to a searchable archive of past alerts,  
+**So that** I can study historical emergency trends or confirm past events.
+
+### ✅ Acceptance Criteria
+- Archive screen allows users to scroll, filter, and search past alerts.
+- Alerts can be viewed in:
+  - Timeline view (chronological list)
+  - Map view (similar to live alerts, but historical data only)
+- Filter options include:
+  - Date range
+  - Type
+  - Severity
+- Export function supports:
+  - CSV download
+  - PDF summary generation
+- Clicking on an alert from the archive opens full details, just like live alerts.
+
+---
