@@ -88,3 +88,24 @@ This document outlines the actionable development tasks required to build the Em
 - Alerts auto-refresh as new ones are created or old ones expire.
  
 ---
+
+
+## 🔧 Task 5: Filter and Search Alerts
+
+### 🧑‍💼 User Story
+**As a** user,  
+**I want** to filter and search through alerts by type, severity, region, and time,  
+**So that** I can find the alerts that matter most to me quickly and efficiently.
+
+### ✅ Acceptance Criteria
+- Filter panel must include:
+  - Alert Type (checkboxes)
+  - Severity Level (dropdown or toggle)
+  - Date Range Selector
+  - Region (if not using GPS)
+- A global search bar allows for keyword-based searching within alert titles and descriptions.
+- Filter and search results update the map and alert list dynamically without requiring app reload.
+- "Clear All" option resets filters to default.
+
+---
+
