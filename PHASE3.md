@@ -109,3 +109,23 @@ This document outlines the actionable development tasks required to build the Em
 
 ---
 
+## 🔧 Task 6: User-Reported Alerts (Feedback Loop)
+
+### 🧑‍💼 User Story
+**As a** user,  
+**I want** to report incidents I observe in my surroundings,  
+**So that** administrators can evaluate them and decide whether to notify others.
+
+### ✅ Acceptance Criteria
+- Feedback form is available in the app, with the following fields:
+  - Type of incident
+  - Description (text area)
+  - Photo or video (optional)
+  - User location (auto-detected or manually set)
+- All reports are submitted to a **moderation queue** accessible by admins only.
+- Admins receive notifications for new reports and can review, approve, or dismiss.
+- Approved reports can be escalated to official alerts with a single click/edit.
+- Users are notified when their report is accepted or rejected.
+
+---
+
