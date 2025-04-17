@@ -3,6 +3,8 @@
 *Final Project – SENG8091: Software Engineering Principles*  
 Developed by a team of two to create a scalable, secure, and real-time mobile application that notifies users of emergencies — such as weather hazards, public safety threats, or accidents — based on their geographic location or region of interest.
 
+Author :- SHRIRANG RAVAL & MAHARSHI PUROHIT 
+Instructor name :- ANDY CHOW
 ---
 
 ## 📖 Problem Statement
@@ -87,4 +89,4 @@ Key Modules:
 
 ---
 
-## 🗂️ Repository Structure
+
